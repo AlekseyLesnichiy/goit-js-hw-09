@@ -10,7 +10,6 @@ refs.startBtn.addEventListener("click", () => {
     changeColor = setInterval(() => {
         refs.stopBtn.disabled = false;
         color = getRandomHexColor();
-         console.log(color);
         refs.body.style.backgroundColor = color
     }, 1000);
 });
